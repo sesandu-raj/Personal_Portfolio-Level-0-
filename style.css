@@ -8,6 +8,7 @@
 }
 
 .header {
+  height: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -22,7 +23,7 @@
 }
 
 .logo {
-  font-size: 25px;
+  font-size: 30px;
   color: azure;
   font-weight: 600;
   transition: 0.3s ease;
@@ -70,4 +71,82 @@ span {
   color: azure;
   /* border: 2px solid azure; */
   box-shadow: 0 0 25px rgb(21, 255, 44), 0 0 5px rgb(21, 255, 44);
+}
+
+/* Home Section */
+
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background: azure;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+
+.home-content {
+  max-width: 800px;
+}
+
+.home-content h3 {
+  font-size: 42px;
+}
+
+.home-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.home-content p {
+  font-size: 18px;
+  margin: 25px 0 30px;
+  text-align: justify;
+}
+
+.btn-box {
+  width: 345px;
+  display: flex;
+  gap: 2em;
+}
+
+.btn-1,
+.btn-2 {
+  width: 350px;
+  height: 80px;
+  padding: 15px 28px;
+  background-color: rgba(0, 0, 0, 0.679);
+  color: azure;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-1:hover {
+  background-color: rgb(21, 255, 44);
+  color: azure;
+  /* border: 2px solid azure; */
+  box-shadow: 0 0 25px rgb(21, 255, 44), 0 0 5px rgb(21, 255, 44);
+}
+
+.btn-2:hover {
+  background-color: rgb(21, 255, 44);
+  color: azure;
+  /* border: 2px solid azure; */
+  box-shadow: 0 0 25px rgb(21, 255, 44), 0 0 5px rgb(21, 255, 44);
+}
+
+.img-box {
+  width: 25%;
+}
+
+.img-box img {
+  border-radius: 50%;
+  display: flex;
+  height: 450px;
+  width: 450px;
 }
