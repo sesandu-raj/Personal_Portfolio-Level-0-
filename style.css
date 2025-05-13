@@ -114,8 +114,8 @@ span {
 .btn-2 {
   width: 350px;
   height: 80px;
-  padding: 15px 28px;
-  background-color: rgba(0, 0, 0, 0.679);
+  padding: 10px 25px;
+  background-color: rgb(0, 0, 0);
   color: azure;
   border: 2px solid transparent;
   border-radius: 18px;
@@ -141,7 +141,7 @@ span {
 }
 
 .img-box {
-  width: 25%;
+  width: 30%;
 }
 
 .img-box img {
@@ -161,5 +161,49 @@ span {
 
 ::-webkit-scrollbar-track {
   background-color: rgba(0, 0, 0, 0.679);
-  width: 50px;
+  width: 10px;
+}
+
+/*Secton About*/
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12% 8%;
+  gap: 10em;
+  background: rgb(245, 223, 223);
+  color: rgba(0, 0, 0, 0.679);
+}
+
+.about-img {
+  width: 30%;
+}
+
+.about-img img {
+  justify-content: center;
+
+  position: relative;
+  height: 500px;
+  width: 500px;
+  box-shadow: rgb(21, 255, 44) 0px 0px 25px 0px,
+    rgb(21, 255, 44) 0px 0px 5px 0px;
+  border-radius: 50%;
+}
+
+.about-content h2 {
+  text-align: left;
+  color: rgb(0, 0, 0);
+  font-size: 42px;
+}
+
+.about-content h3 {
+  font-size: 62px;
+  color: rgb(0, 0, 0);
+}
+
+.about-content p {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin: 20px 50px 50px;
+  text-align: justify;
 }
