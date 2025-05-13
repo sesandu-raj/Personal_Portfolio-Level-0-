@@ -6,3 +6,68 @@
   text-decoration: none;
   list-style: none;
 }
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 12%;
+  background: rgba(0, 0, 0, 0.679);
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 25px;
+  color: azure;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.logo:hover {
+  color: rgb(21, 255, 44);
+  text-shadow: 0 0 25px rgb(21, 255, 44), 0 0 5px rgb(21, 255, 44);
+  transform: scale(1.1);
+}
+
+span {
+  color: rgb(21, 255, 44);
+}
+
+.navbar a {
+  font-size: 18px;
+  color: azure;
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+
+.navbar a:hover,
+.navbar a.active {
+  color: rgb(21, 255, 44);
+  border-bottom: 3px solid rgb(21, 255, 44);
+}
+
+.contact {
+  padding: 10px 28px;
+  background-color: azure;
+  color: rgba(0, 0, 0, 0.679);
+  border: 2px solid transparent;
+  border-radius: 18px;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.contact:hover {
+  background-color: rgb(21, 255, 44);
+  color: azure;
+  /* border: 2px solid azure; */
+  box-shadow: 0 0 25px rgb(21, 255, 44), 0 0 5px rgb(21, 255, 44);
+}
