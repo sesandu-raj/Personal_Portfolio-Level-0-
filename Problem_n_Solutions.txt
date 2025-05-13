@@ -1,0 +1,32 @@
+Extra Space under the Contact-Form 
+
+            .contact-form form {
+            max-width: 50em;
+            margin: 1rem auto;
+            text-align: center;
+            margin-bottom: 50em; /* <-- This is the issue */
+            }
+
+    ✅ Problem:
+
+    You're adding 50em of bottom margin to the form, which pushes everything down and creates the illusion of an empty section at the bottom of the page.
+    ✅ Solution:
+
+    Reduce or remove that excessive margin. Here's a corrected version:
+
+            .contact-form form {
+            max-width: 50em;
+            margin: 1rem auto;
+            text-align: center;
+            margin-bottom: 2em; /* Adjust as needed */
+            }
+
+    🧠 Pro Tip (Modern Approach):
+
+    To ensure there’s good spacing but no overflow, consider using padding inside the section instead of huge margins. Example:
+
+            .contact-form {
+            padding: 4em 2em;
+            background: rgb(245, 223, 223); /* Optional for visual separation */
+            }
+
